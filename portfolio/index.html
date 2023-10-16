@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bharat ka portfolio</title>
+    <link rel="stylesheet" href="port.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+<div >
+    <header>
+        <nav  >
+            <div class="left">MyPortfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#secondSec">About</a></li>
+                <li><a href="#thirdSec">Projects</a></li>
+                <li><a href="#thirdSec">skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="maincontaioner">
+        <section class="firstSec">
+            <div class="leftSection">
+                Hi, I am <span id="namecol">Shilpa</span> 
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="./dev.png" alt="">
+            </div>
+        </section>
+        <section class="secondSec" id="secondSec">
+            <div id="container">
+                <h1>AboutMe</h1><br><br>
+                <div>I am Shilpa.I am a engineer graduate who's looking for chance to put my practical knowledge to application.As a passionate and dedicated individual, I thrive on solving problems using a diverese set of skills that I've honoured. I believe that great solutions are born from the combination of creativity and technical proficiency, and I bring both to the table with enthusiasm.
+                    <div class="iconbox">
+                        <a href="https://www.linkedin.com/in/shilpa-kankanala-626503251/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                        <a href="https://github.com/shilpa453?tab=repositories" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>   
+                    </div>
+                </div>
+              
+            </div>
+        </section>
+        <section class="thirdSec" id="thirdSec">
+            <div id="container2">
+                <div class="cc2">
+                    <div class="head">Projects</div>
+                    <div class="proj">
+                        <h1>Classroom Reservation</h1>
+                        <p>Developed a user-friendly class room reservation website utilizing
+                            HTML, CSS, and JavaScript for the frontend. Implemented
+                            backend functionality using Node.js and Express.js, with MongoDB
+                            as the database.Enabled faculty members to easily check class room availability,
+                            make reservations, and manage their bookings efficiently.</p></div>
+                </div>
+
+                <div class="cc2">
+                    <div class="head">Skills</div>
+                    <div class="skill">
+                        <div class="oneSkill">Html</div>
+                        <div class="oneSkill">CSS</div>
+                        <div class="oneSkill">Javascript</div>
+                        <div class="oneSkill">JQuery</div>
+                        <div class="oneSkill">Java</div>
+                        <div class="oneSkill">SQL</div>
+                    </div>
+                </div>
+                
+            </div>
+           
+            
+        </section>
+        <section class="FourthSec">
+            <footer></footer>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+
+
+
+
+        var typed = new Typed('#element', {
+          strings: ['Web developer', 'Software developer'],
+          typeSpeed: 50,
+            backSpeed: 50,
+            backDelay: 500,
+          loop: true,
+        });
+      </script>
+</body>
+
+</html>
